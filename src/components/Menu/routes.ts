@@ -4,17 +4,27 @@ export const shop = [
 ]
 
 export const seasons = [
+  { label: '2026', route: '/event/2026/' },
+  { label: '2025', route: '/event/2025/' },
   { label: '2024', route: '/event/2024/' },
   { label: '2023', route: '/event/2023/' },
   { label: '2022', route: '/event/2022/' },
-  { label: 'Archive', route: '/event/' }
+  { label: 'Archive', route: '/event/' },
 ]
 
 export const registration = [
-  { label: 'Membership', description: 'Become a member', route: '/registration/membership/' },
+  {
+    label: 'Membership',
+    description: 'Become a member',
+    route: '/registration/membership/',
+  },
   { label: 'Rides', description: 'Scheduled rides', route: '/registration/' },
   { label: 'Permanents', route: '/registration/permanent/' },
-  { label: 'Trace', description: 'Trace Virtuelle', route: '/registration/trace-virtuelle/' },
+  {
+    label: 'Trace',
+    description: 'Trace Virtuelle',
+    route: '/registration/trace-virtuelle/',
+  },
 ]
 
 export const loneliness = [
@@ -23,8 +33,16 @@ export const loneliness = [
 ]
 
 export const symposium = [
-  { label: '2020', description: '2020 Virtual Symposium', route: '/symposium/2020' },
-  { label: '2021', description: '2021 Virtual Symposium', route: '/symposium/2021' },
+  {
+    label: '2020',
+    description: '2020 Virtual Symposium',
+    route: '/symposium/2020',
+  },
+  {
+    label: '2021',
+    description: '2021 Virtual Symposium',
+    route: '/symposium/2021',
+  },
 ]
 
 export default {
@@ -32,5 +50,5 @@ export default {
   registration,
   seasons,
   loneliness,
-  shop
+  shop,
 }

@@ -16,7 +16,7 @@ import UpcomingEvents from 'src/components/UpcomingEvents'
 import * as styles from './styles/index.module.scss'
 import { iframe } from 'src/components/styles/iframe.module.scss'
 
-const currentSeason = '2024'
+const currentSeason = '2026'
 
 const pageQuery = graphql`
   query indexPageQuery {
